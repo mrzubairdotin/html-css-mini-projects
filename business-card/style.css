@@ -1,0 +1,41 @@
+/* General Styles */
+body {
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f4f4f4;
+    height: 100vh;
+}
+
+/* Business Card Styles */
+.card {
+    width: 400px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: #ddebf8;
+    color: #2b2839;
+    border-bottom: 6px solid #d8cefe;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+/* Center the card */
+.card{
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Image Styling */
+.avatar {
+    width: 120px;
+    border-radius: 50%;
+    border: 3px solid #2b2839;
+    margin-right: 15px;
+}
+
+/* Hover Effect */
+.card:hover {
+    box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.3);
+}
